@@ -1,0 +1,39 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+node_modules
+dist
+dist-ssr
+*.local
+.env
+.env.*
+!.env.example
+
+# Real supplier data — contains PII (names, emails, phone numbers, CVs,
+# certificates, ID-adjacent documents), never commit to any repo, public or
+# private. This is the actual source data and the real uploaded attachments
+# for 175+ real applicants.
+scripts/master-index.csv
+scripts/*.csv
+AFOSI SUPPLIER PREQUALIFICATIONS_APPLICATIONS/
+HTML FILES/
+
+# Claude Code session state (local only, not project code)
+.claude/
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
